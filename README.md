@@ -72,8 +72,10 @@ R-Squared (R²)<br>
 
 
 ## Outputs
-### [reddit_posts_2024.csv](./reddit_posts_2024.csv): 
+### [reddit_posts_2024.csv](./Outputs/reddit_posts_2024.csv): 
 Contains the scraped Reddit posts and their sentiment scores. <br>
+### [Predicted stock prices](./Outputs/predicted_closing_prices_2024.csv): 
+The model will output the predicted stock prices for the test dataset.
 ### Model evaluation metrics: 
 #### Mean Absolute Error (MAE): 
 139.94443780573795<br>
@@ -83,6 +85,9 @@ Contains the scraped Reddit posts and their sentiment scores. <br>
 310.0845262038972<br>
 #### R-squared (R2): 
 0.9940260805602048<br>
-### [Predicted stock prices](./predicted_closing_prices_2024.csv): 
-The model will output the predicted stock prices for the test dataset.
+### Model Results:
+Here is the graph showing the model's predictions vs. actual stock prices:
+![Stock Prediction Graph](./Outputs/ActualVsPredictedPlot.png)
+
+
 
